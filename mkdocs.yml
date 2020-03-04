@@ -1,6 +1,14 @@
 site_name: containertips.dev
 
+
+site_author: Marcos Cano
+site_description: All about Docker, K8 and Containers in general
+
+#google_analytics: ['UA-36723568-3', 'mkdocs.org']
+
+repo_name: containertips.dev
 repo_url: https://github.com/jmarcos-cano/containertips.dev
+edit_uri: ""
 
 theme:
   name: material
@@ -13,13 +21,21 @@ theme:
     code: 'Ubuntu Mono'
   language: 'en'
   favicon: 'assets/images/favicon.ico'
-  feature:
-    tabs: true
+#  include_sidebar: True
+#   feature:
+#     tabs: true
 
 
 extra:
   search:
     language: 'en, es'
+  social:
+    - type: 'github'
+      link: 'https://github.com/squidfunk'
+    - type: 'twitter'
+      link: 'https://twitter.com/squidfunk'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/in/squidfunk'
 
 plugins:
   - search
