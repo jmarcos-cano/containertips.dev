@@ -1,1 +1,35 @@
-site_name: My Docs
+site_name: containertips.dev
+
+repo_url: https://github.com/jmarcos-cano/containertips.dev
+
+theme:
+  name: material
+  palette:
+    primary: "blue"
+    accent: 'blue'
+  logo: 'assets/images/logo.png'
+  font:
+    text: 'Ubuntu'
+    code: 'Ubuntu Mono'
+  language: 'en'
+  favicon: 'assets/images/favicon.ico'
+  feature:
+    tabs: true
+
+
+extra:
+  search:
+    language: 'en, es'
+
+plugins:
+  - search
+  #- markdownextradata: {}
+markdown_extensions:
+  - codehilite
+  - footnotes
+  - admonition
+  - toc:
+        permalink: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.mark
